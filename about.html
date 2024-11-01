@@ -82,40 +82,33 @@
                </div>
             </div>
             <div class="header_bo">
-               <div class="container">
-                  <div class="row">
+               <div class="container-fluid"> <!-- Cambiado a container-fluid -->
+                  <div class="row justify-content-center"> <!-- Alineación centrada -->
                      <div class="col-md-9 col-sm-7">
-                        <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <nav class="navigation navbar navbar-expand-md navbar-dark justify-content-center"> <!-- Centra el contenido dentro de la navbar -->
                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                           <span class="navbar-toggler-icon"></span>
+                              <span class="navbar-toggler-icon"></span>
                            </button>
                            <div class="collapse navbar-collapse" id="navbarsExample04">
-                              <ul class="navbar-nav mr-auto">
+                              <ul class="navbar-nav mx-auto"> <!-- Centra los elementos dentro del ul -->
                                  <li class="nav-item ">
-                                    <a class="nav-link" href="index.html"> Inicio  </a>
+                                    <a class="nav-link" href="index.html">Inicio</a>
                                  </li>
-                                 <li class="nav-item active">
-                                    <a class="nav-link" href="about.html">Sobre Nosotros</a>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="about.html">Sobre nosotros</a>
                                  </li>
                                  <li class="nav-item">
                                     <a class="nav-link" href="service.html">Servicios</a>
                                  </li>
-                              
                                  <li class="nav-item">
                                     <a class="nav-link" href="client.html">Trabajos</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contáctanos </a>
+                                    <a class="nav-link" href="contact.html">Contáctanos</a>
                                  </li>
                               </ul>
                            </div>
                         </nav>
-                     </div>
-                     <div class="col-md-3 col-sm-5 d_none">
-                        <ul class="sign">
-                           <!--<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                           <li><a class="sign_btn" href="#">sign up now</a></li>-->
-                        </ul>
                      </div>
                   </div>
                </div>
@@ -132,8 +125,8 @@
             <div class="col-md-12 col-lg-7">
                <div class="about_box">
                   <div class="titlepage">
-                     <h1><strong class="yellow">SOBRE NOSOTROS</strong></h1>
-                     <h4>VISIÓN</h4>
+                     <h6><strong class="yellow">SOBRE NOSOTROS</strong></h6>
+                     <h1>VISIÓN</h1>
                   </div>
                   <p>Ser la agencia de publicidad preferida en el mercado mediante la oferta de productos profesionales 
                      y servicios publicitarios, comprometiéndonos con una gestión eficiente y colocando nuestro 
@@ -144,7 +137,7 @@
             </div>
             <div class="col-md-12 col-lg-5">
                <div class="about_img">
-                  <figure><img src="images/about_img2.jpg" alt="Imagen sobre nosotros"/></figure>
+                  <figure><img src="images/imprenta1.jpg" alt="ImprentaSobreNosotros"/></figure>
                </div>
             </div>
          </div>
@@ -158,7 +151,7 @@
             <div class="col-md-12 col-lg-7">
                <div class="about_box">
                   <div class="titlepage">
-                     <h4>MISIÓN</h4>
+                     <h1>MISIÓN</h1>
                   </div>
                   <p>Ofrecer a nuestros clientes una gama de ideas y soluciones que se ajusten a sus expectativas 
                      y necesidades. Nos distinguimos por nuestra creatividad y excelente gestión de medios, logrando 
@@ -169,7 +162,7 @@
             </div>
             <div class="col-md-12 col-lg-5">
                <div class="about_img">
-                  <figure><img src="images/about_img2.jpg" alt="Imagen de la misión"/></figure>
+                  <figure><img src="images/imprenta2.jpg" alt="Imagen de la misión"/></figure>
                </div>
             </div>
          </div>
@@ -183,7 +176,7 @@
             <div class="col-md-12 col-lg-7">
                <div class="about_box">
                   <div class="titlepage">
-                     <h4>VALORES</h4>
+                     <h1>VALORES</h1>
                   </div>
                   <p>Nuestros valores fundamentales guían cada aspecto de nuestro trabajo:</p>
                   <ul>
@@ -210,31 +203,33 @@
    <!-- Footer -->
    <footer>
       <div class="footer">
+         
          <div class="container">
             <div class="row">
                <div class="col-md-12">
-                  <a class="logo2" href="#"><img src="images/loogo2.png" alt="Logo"/></a>
+                  <a class="logo2" href="#"><img src="images/loogo2.png" alt="#" /></a>
                </div>
+               
                <div class="col-lg-5 col-md-6 col-sm-6">
-                  <h3>Contáctanos</h3>
+                  <h3>Contáctanos en </h3>
                   <ul class="location_icon">
-                     <li><i class="fa fa-map-marker" aria-hidden="true"></i> London 145, United Kingdom</li>
-                     <li><i class="fa fa-envelope" aria-hidden="true"></i> gipuebla@outlook.com</li>
-                     <li><i class="fa fa-phone" aria-hidden="true"></i> +01 1234567890</li>
+                     <li><a href="https://maps.app.goo.gl/PaSiL1bEGymjcJhu6"><i class="fa fa-map-marker" aria-hidden="true"></i></a> San Sebastián Tepalcatepec
+                        <br> Puebla
+                     </li>
+                     <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>gipuebla@outlook.com</li>
+                     <li><a href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i></a>+52 221 236 3648</li>
                   </ul>
                   <ul class="social_icon">
-                     <li> Síguenos en nuestras redes sociales
-                     </li>
                      <li> <a href="https://www.facebook.com/share/AsnvURzTwqu3EjBv/"><i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                     </li>
-                     <li> <a href="https://www.instagram.com/_gipmx?igsh=MW0zMmg5Nm51dWQ3aQ=="><i class="fa fa-instagram" aria-hidden="true"></i>
-                        </a>
-                     </li>
+                     </a>
+                  </li>
+                  <li> <a href="https://www.instagram.com/_gipmx?igsh=MW0zMmg5Nm51dWQ3aQ=="><i class="fa fa-instagram" aria-hidden="true"></i>
+                     </a>
+                  </li>
                   </ul>
                </div>
                <div class="col-lg-2 col-md-6 col-sm-6">
-                  <h3>Menús</h3>
+                  <h3>Menus</h3>
                   <ul class="link_icon">
                      <li><a href="index.html">Inicio</a></li>
                      <li><a href="about.html">Sobre Nosotros</a></li>
@@ -245,26 +240,30 @@
                   </ul>
                </div>
                <div class="col-lg-2 col-md-6 col-sm-6">
-                  <h3>Publicaciones Recientes</h3>
+                  <!--<h3>Recent Post</h3>
                   <ul class="link_icon">
-                     <li><a href="#">Participa en reuniones</a></li>
-                     <li><a href="#">Gestiona marketing</a></li>
-                     <li><a href="#">Dedicado a marketing</a></li>
-                     <li><a href="#">25 de noviembre, 2019</a></li>
-                  </ul>
+                     <li> <a href="#"> Participate in staff </a></li>
+                     <li>
+                        <a href="#">
+                           meetings manage
+                     </li>
+                     <li> <a href="#"> dedicated to </a></li>
+                     <li> <a href="#"> marketing</a></li>
+                     <li> <a href="#"> November 25, 2019</a></li>
+                  </ul>-->
                </div>
                <div class="col-lg-3 col-md-6 col-sm-6">
-                  <h3>Boletín</h3>
-                  <form id="newsletter" class="main_form">
+                  <!--<h3>Newsletter</h3>
+                  <form id="request" class="main_form">
                      <div class="row">
-                        <div class="col-md-12">
-                           <input class="news" placeholder="Tu Correo" type="email" name="email">
+                        <div class="col-md-12 ">
+                           <input class="news" placeholder="Your Email" type="type" name="Your Email">
                         </div>
                         <div class="col-md-12">
-                           <button class="send_btn" type="submit">Enviar</button>
+                           <button class="send_btn">Send</button>
                         </div>
                      </div>
-                  </form>
+                  </form>-->
                </div>
             </div>
          </div>
@@ -272,15 +271,14 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-12">
-                     <!--<p>© 2019 Todos los Derechos Reservados. <a href="https://html.design/">Plantillas HTML Gratis</a></p> -->
+                     <!--<p>© 2019 All Rights Reserved.<a href="https://html.design/"> Free html Templates</a></p>-->
                   </div>
                </div>
             </div>
          </div>
       </div>
-
-
-      </footer>
+      
+   </footer>
       <!-- end footer -->
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>

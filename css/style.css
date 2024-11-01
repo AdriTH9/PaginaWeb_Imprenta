@@ -102,6 +102,9 @@ h5 {
 h6 {
      font-size: 13px
 }
+h6 {
+     font-size: 30px
+}
 
 *,
 *::after,
@@ -318,6 +321,7 @@ ul.lan li {
      top: 0;
      padding: 5px 0;
      opacity: 0;
+     filter: blur(5px);
      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
      background: none transparent;
      border: 0 none;
@@ -439,13 +443,28 @@ ul.conta_icon li a:hover {
      color: #b7b7b7;
      font-size: 17px;
 }
-
+/*-------------------------------------------*/
 .header_bo {
      background-color: #032154;
      width: 100%;
      height: 70px;
-}
-
+ }
+ 
+ .navigation.navbar-dark .navbar-nav {
+     width: 100%;
+     display: flex;
+     justify-content: center; /* Centra los elementos dentro de la barra */
+ }
+ 
+ .navigation.navbar-dark .navbar-nav .nav-link {
+     padding: 50px 50px;
+     font-weight: 600;
+     color: #ffffff;
+     font-size: 20px;
+     line-height: 20px;
+     text-transform: uppercase;
+ }
+/*-------------------------------------------*/ 
 
 /*-- navigation--*/
 
@@ -1126,7 +1145,7 @@ ul.social_icont li a {
      color: #f2db18;
      text-transform: uppercase;
      margin-left: 20px;
-     float: left;
+     /*float: left;*/
 }
 
 .testimonial_Carousel .test_box p {
